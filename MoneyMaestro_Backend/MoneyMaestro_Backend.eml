@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_22" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="apache-tomcat-10.1.28-windows-x64" scope="COMPILE">
+		<srcroot url="file://$USER_HOME$/Downloads/apache-tomcat-10.1.28-windows-x64/apache-tomcat-10.1.28/webapps/docs/appdev/sample/src"/>
+		<srcroot bind="false" url="file://$USER_HOME$/Downloads/apache-tomcat-10.1.28-windows-x64/apache-tomcat-10.1.28/webapps/examples/WEB-INF/classes"/>
+		<srcroot bind="false" url="file://$USER_HOME$/Downloads/apache-tomcat-10.1.28-windows-x64/apache-tomcat-10.1.28/work/Catalina/localhost/manager"/>
+	</lib>
+	<lib name="Empty Library" scope="COMPILE">
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/build/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/demo/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/generated/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/legacy/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/main/core-api/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/main/core-impl/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/main/protocol-impl/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/main/user-api/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/main/user-impl/java"/>
+		<srcroot url="jar://$USER_HOME$/Downloads/mysql-connector-j-9.0.0.zip!/mysql-connector-j-9.0.0/src/test/java"/>
+	</lib>
+</component>
